@@ -12,6 +12,5 @@ func main() {
 	err := ebiten.RunGame(model.NewGame())
 	if err != nil {
 		log.Fatal("%v", err)
-		fmt.Println("aaaaaaaaaaaaaa")
 	}
 }
